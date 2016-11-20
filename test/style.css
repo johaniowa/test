@@ -1,0 +1,41 @@
+﻿@media print and (width: 21cm) and (height: 29.7cm) { @page { margin: 1cm;}}
+
+/* style sheet for "letter" printing */
+@media print and (width: 8.5in) and (height: 11in) {@page {margin: 1in;}}
+
+/* A4 Landscape*/
+@page {size: A4 landscape; margin: 10%;}
+
+
+.label
+{
+    font-size: 10pt;
+    font-weight: bold;
+    font-family: Arial;
+}
+.contents
+{
+    border: 1px dotted black;
+    padding: 5px;
+    width: 300px;
+}
+.name
+{
+    color: #18B5F0;
+}
+.left
+{
+    float: left;
+    width: 50px;
+    height: 50px;
+}
+.right
+{
+    margin-left: 60px;
+    line-height:50px;
+}
+.clear
+{
+    clear: both;
+}
+
